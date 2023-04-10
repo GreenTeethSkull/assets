@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.936266mm"
+   height="16.93652mm"
+   viewBox="0 0 16.936266 16.93652"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="arch_icon_green.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.0832384"
+     inkscape:cx="17.50536"
+     inkscape:cy="33.711736"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-89.344955,-115.86246)">
+    <path
+       d="m 97.812412,115.86247 c -0.75406,1.84812 -1.20861,3.057 -2.047871,4.85035 0.514611,0.54557 1.146171,1.18057 2.169581,1.89812 -1.10278,-0.45376 -1.85208,-0.90938 -2.417231,-1.38219 -1.074209,2.24102 -2.756959,5.43402 -6.171936,11.57023 2.686579,-1.5494 4.764881,-2.50454 6.706397,-2.86967 -0.08334,-0.35824 -0.130707,-0.74559 -0.127003,-1.14961 l 0.0032,-0.086 c 0.04233,-1.7198 0.937153,-3.04218 1.996813,-2.95222 1.05965,0.0899 1.8833,1.55733 1.8407,3.27712 a 4.85775,4.85775 0 0 1 -0.10821,0.92367 c 1.918228,0.37517 3.976688,1.3282 6.624368,2.8567 l -1.43404,-2.65271 c -0.70115,-0.54319 -1.43219,-1.25042 -2.92365,-2.01613 1.02526,0.26644 1.75948,0.57362 2.32834,0.91731 -4.524368,-8.42433 -4.891088,-9.54352 -6.442598,-13.18498 z"
+       fill="#1793d1"
+       fill-rule="evenodd"
+       id="path9"
+       style="fill:#00d455;stroke-width:0.264583" />
+  </g>
+</svg>

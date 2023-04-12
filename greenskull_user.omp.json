@@ -16,7 +16,7 @@
           "background": "#0A703E",
           "foreground": "#fff",
           "style": "powerline",
-          "template": "{{ if eq \"fish\" .Shell }}\uf739 {{else}}\uebca {{ end }}",
+          "template": "{{ if eq \"fish\" .Shell }}\uf739 {{else}}{{ if eq \"bash\" .Shell }}\uebca {{else}}\uebc7 {{ end }}{{ end }}",
           "type": "shell"
         },
         {

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space":true,
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#0A703E",
+          "foreground_templates": [
+            "{{ if .Root }}#BF231D{{ end }}"
+          ],
+          "style": "plain",
+          "template": "\ue0b6",
+          "type": "text"
+        },
+        {
+          "background": "#0A703E",
+          "background_templates": [
+            "{{ if .Root }}#BF231D{{ end }}"
+          ],
+          "foreground": "#6dbffe",
+          "foreground_templates": [
+            "{{ if .Root }}#F7DA9E{{ end }}"
+          ],
+          "style": "powerline",
+          "template": "{{ if eq \"fish\" .Shell }}\uf739 {{else}}{{ if eq \"bash\" .Shell }}\uebca {{else}}\uebc7 {{ end }}{{ end }}",
+          "type": "shell"
+        },
+        {
+          "background": "#256C9D",
+          "foreground": "#e4ff01",
+          "properties": {
+            "folder_icon": "",
+            "folder_separator_icon": "\uf460",
+            //"folder_separator_icon": "\ue216",
+            "max_depth": 2,
+            "home_icon": "\uf7db ",
+            "style": "agnoster"
+          },
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": "{{ .Path }}",
+          "type": "path"
+        },
+        {
+          "background": "#cb7300",
+          "foreground": "#2F0B3A",
+          "properties": {
+            "branch_max_length": 30,
+            "fetch_stash_count": false,
+            "fetch_status": false,
+            "fetch_upstream_icon": true,
+            "branch_icon":"",
+            "git_icon":"\ue725"
+          },
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          //"template": "{{ .UpstreamIcon }}{{ .HEAD }}",
+          "template":"{{ .UpstreamIcon }}",
+          "type": "git"
+        }
+
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 2
+}

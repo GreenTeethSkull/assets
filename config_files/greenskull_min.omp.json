@@ -31,12 +31,13 @@
           "background": "#256C9D",
           "foreground": "#e4ff01",
           "properties": {
-            "folder_icon": "",
-            "folder_separator_icon": "\uf460",
+            //"folder_icon": "",
+            //"folder_separator_icon": "\uf460",
             //"folder_separator_icon": "\ue216",
-            "max_depth": 2,
+            //"max_depth": 2,
             "home_icon": "\uf7db ",
-            "style": "agnoster"
+            "style": "folder"
+            //"style": "agnoster"
           },
           "powerline_symbol": "\ue0b0",
           "style": "powerline",

@@ -24,7 +24,7 @@
             "{{ if .Root }}#F7DA9E{{ end }}"
           ],
           "style": "powerline",
-          "template": "{{ if eq \"fish\" .Shell }}\uf739 {{else}}{{ if eq \"bash\" .Shell }}\uebca {{else}}\uebc7 {{ end }}{{ end }}",
+          "template": "{{ if eq \"fish\" .Shell }}\udb80\ude3a {{else}}{{ if eq \"bash\" .Shell }}\uebca {{else}}\uebc7 {{ end }}{{ end }}",
           "type": "shell"
         },
         {
@@ -35,7 +35,7 @@
             //"folder_separator_icon": "\uf460",
             //"folder_separator_icon": "\ue216",
             //"max_depth": 2,
-            "home_icon": "\uf7db ",
+            "home_icon": "\udb80\udedc ",
             "style": "folder"
             //"style": "agnoster"
           },

@@ -6,6 +6,14 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#EAC919",
+          "background": "#884191",
+          "template": "   "
+        },
+        {
           "foreground": "#0A703E",
           "foreground_templates": [
             "{{ if .Root }}#BF231D{{ end }}"
@@ -57,8 +65,8 @@
           },
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          //"template": "{{ .UpstreamIcon }}{{ .HEAD }}",
-          "template":"{{ .UpstreamIcon }}",
+          "template": "{{ .UpstreamIcon }}{{ .HEAD }}",
+          //"template":"{{ .UpstreamIcon }}",
           "type": "git"
         }
 

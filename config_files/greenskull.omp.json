@@ -5,6 +5,14 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#EAC919",
+          "background": "#884191",
+          "template": "  {{ .Full }} "
+        },
+        {
           "foreground": "#0A703E",
           "style": "plain",
           "template": "{{ if .Root }}{{ else }}\ue0b6{{ end }}",
